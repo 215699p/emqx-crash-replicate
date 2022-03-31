@@ -1,0 +1,123 @@
+2022-03-31 08:00:36.468 [warning] [Alarm Handler] Alarm high_system_memory_usage is activated, System memory usage is higher than 70%
+2022-03-31 08:02:00.302 [error] ** State machine gen_rpc_server_tcp terminating
+** When server state  = {undefined,undefined}
+** Reason for termination = exit:badarg
+** Callback modules = [gen_rpc_server]
+** Callback mode = undefined
+** Stacktrace =
+**  [{inet_tcp,listen,2,[{file,"inet_tcp.erl"},{line,160}]},
+     {gen_rpc_server,init,1,[{file,"gen_rpc_server.erl"},{line,56}]},
+     {gen_statem,init_it,6,[{file,"gen_statem.erl"},{line,718}]},
+     {proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,249}]}]
+
+2022-03-31 08:02:00.302 [error]     supervisor: {local,gen_rpc_sup}
+    errorContext: start_error
+    reason: badarg
+    offender: [{pid,undefined},
+               {id,gen_rpc_server_tcp},
+               {mfargs,{gen_rpc_server,start_link,[tcp]}},
+               {restart_type,permanent},
+               {shutdown,5000},
+               {child_type,worker}]
+2022-03-31 08:02:00.303 [error]   crasher:
+    initial call: application_master:init/4
+    pid: <0.1379.0>
+    registered_name: []
+    exception exit: {{shutdown,
+                         {failed_to_start_child,gen_rpc_server_tcp,badarg}},
+                     {gen_rpc_app,start,[normal,[]]}}
+      in function  application_master:init/4 (application_master.erl, line 138)
+    ancestors: [<0.1378.0>]
+    message_queue_len: 1
+    messages: [{'EXIT',<0.1380.0>,normal}]
+    links: [<0.1378.0>,<0.1288.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 376
+    stack_size: 27
+    reductions: 193
+  neighbours:
+
+2022-03-31 08:06:37.222 [error] ** State machine gen_rpc_server_tcp terminating
+** When server state  = {undefined,undefined}
+** Reason for termination = exit:badarg
+** Callback modules = [gen_rpc_server]
+** Callback mode = undefined
+** Stacktrace =
+**  [{inet_tcp,listen,2,[{file,"inet_tcp.erl"},{line,160}]},
+     {gen_rpc_server,init,1,[{file,"gen_rpc_server.erl"},{line,56}]},
+     {gen_statem,init_it,6,[{file,"gen_statem.erl"},{line,718}]},
+     {proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,249}]}]
+
+2022-03-31 08:06:37.222 [error]     supervisor: {local,gen_rpc_sup}
+    errorContext: start_error
+    reason: badarg
+    offender: [{pid,undefined},
+               {id,gen_rpc_server_tcp},
+               {mfargs,{gen_rpc_server,start_link,[tcp]}},
+               {restart_type,permanent},
+               {shutdown,5000},
+               {child_type,worker}]
+2022-03-31 08:06:37.222 [error]   crasher:
+    initial call: application_master:init/4
+    pid: <0.1379.0>
+    registered_name: []
+    exception exit: {{shutdown,
+                         {failed_to_start_child,gen_rpc_server_tcp,badarg}},
+                     {gen_rpc_app,start,[normal,[]]}}
+      in function  application_master:init/4 (application_master.erl, line 138)
+    ancestors: [<0.1378.0>]
+    message_queue_len: 1
+    messages: [{'EXIT',<0.1380.0>,normal}]
+    links: [<0.1378.0>,<0.1288.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 376
+    stack_size: 27
+    reductions: 193
+  neighbours:
+
+2022-03-31 08:08:38.881 [warning] [Alarm Handler] Alarm high_system_memory_usage is activated, System memory usage is higher than 70%
+2022-03-31 08:09:51.822 [warning] [Alarm Handler] Alarm high_system_memory_usage is activated, System memory usage is higher than 70%
+2022-03-31 08:10:02.650 [error] ** State machine gen_rpc_server_tcp terminating
+** When server state  = {undefined,undefined}
+** Reason for termination = exit:badarg
+** Callback modules = [gen_rpc_server]
+** Callback mode = undefined
+** Stacktrace =
+**  [{inet_tcp,listen,2,[{file,"inet_tcp.erl"},{line,160}]},
+     {gen_rpc_server,init,1,[{file,"gen_rpc_server.erl"},{line,56}]},
+     {gen_statem,init_it,6,[{file,"gen_statem.erl"},{line,718}]},
+     {proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,249}]}]
+
+2022-03-31 08:10:02.651 [error]     supervisor: {local,gen_rpc_sup}
+    errorContext: start_error
+    reason: badarg
+    offender: [{pid,undefined},
+               {id,gen_rpc_server_tcp},
+               {mfargs,{gen_rpc_server,start_link,[tcp]}},
+               {restart_type,permanent},
+               {shutdown,5000},
+               {child_type,worker}]
+2022-03-31 08:10:02.651 [error]   crasher:
+    initial call: application_master:init/4
+    pid: <0.1379.0>
+    registered_name: []
+    exception exit: {{shutdown,
+                         {failed_to_start_child,gen_rpc_server_tcp,badarg}},
+                     {gen_rpc_app,start,[normal,[]]}}
+      in function  application_master:init/4 (application_master.erl, line 138)
+    ancestors: [<0.1378.0>]
+    message_queue_len: 1
+    messages: [{'EXIT',<0.1380.0>,normal}]
+    links: [<0.1378.0>,<0.1288.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 376
+    stack_size: 27
+    reductions: 193
+  neighbours:
+

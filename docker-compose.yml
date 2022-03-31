@@ -1,0 +1,15 @@
+version: "2.2"
+
+services:
+  mqtt-broker:
+    networks:
+      - emqx-test
+    expose:
+      - 1883
+      - 8081
+    image: emqx/emqx:4.2.6
+    volumes:
+      - ./vol-emqx-log:/opt/emqx/log
+
+networks:
+  emqx-test:
